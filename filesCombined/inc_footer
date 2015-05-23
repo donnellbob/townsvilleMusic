@@ -1,0 +1,14 @@
+<footer>
+<p class="copyright">&copy; 2015, Townsville Musice Centre.</p>
+<p class="user">
+<?php
+if (isset($_SESSION['username'])) {
+	echo "Hello". $_SESSION['username'];
+	echo " - <a href=\"logout.php?page=$name\">Logout</a>";
+	
+}
+else
+	echo "(Not logged in"; ?></p>
+</footer>
+<?php if (isset($dbh)) $dbh = null; ?>
+
