@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Townsville Mucic Centre - Home</title>
+<link href="mainstyles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+  <header>
+   <img src="image/tcmc02.jpg" width="200" height="200" alt="Diggers logo"/>
+   <?php 
+	include ("inc_headerLogin.php") ?>
+          
+  <?php
+     include ("inc_nav.php")  ?>;       
+  </header>  
+  <section id="content">
+  <h2>Subscribe</h2>     
+  <?php
+  include ("inc_subscribe.php");
+  
+  ?>
+ 
+ 
+   <?php 
+   include ("inc_footer.php");
+    ?>
+   
+    
+</body>
+</html>
