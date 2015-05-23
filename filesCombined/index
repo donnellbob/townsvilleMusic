@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Townsville Mucic Centre - Home</title>
+<link href="mainstyles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+ 	<img src="image/tcmc02.jpg" width="200" height="200" alt="Diggers logo"/>
+	<?php 
+	include ("inc_headerLogin.php") ?>
+
+	
+  
+          
+  <?php
+     include ("inc_nav.php")  ?>;       
+  </header>  
+  <section id="content">
+  <h2>Welcome to Townsville Music Center Website</h2>
+  <p> We specialise in hosting and conducting concerts and music training. </p>
+ 
+   <?php 
+   include ("inc_footer.php");
+    ?>
+   
+    
+</body>
+</html>
