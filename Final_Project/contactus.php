@@ -8,7 +8,7 @@
 
 <body>
   <header>
-   <img src="image/tcmc02.jpg" width="200" height="200" alt="Diggers logo"/>
+   <img src="image/tcmc02.jpg" width="200" height="200" alt="TCMC logo"/>
     <div class="login">
     <?php 
 	include ("inc_headerLogin.php") ?>   
